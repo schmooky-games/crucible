@@ -45,3 +45,58 @@ button:disabled {
 #item-details, #flowchart-content {
   margin-top: 10px;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#item-display, #controls, #flowchart {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1 1 auto;
+  min-width: 120px;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+#item-details, #flowchart-content {
+  margin-top: 10px;
+}

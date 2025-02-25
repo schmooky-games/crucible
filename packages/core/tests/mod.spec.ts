@@ -4,7 +4,7 @@ import { createItem, ItemBase } from '../src/item';
 
 describe('Mod System', () => {
   const swordBase: ItemBase = { name: 'Rusted Sword', type: '1h_weapon', implicitMods: [] };
-  const item = createItem(swordBase, 'rare', () => 'test_id');
+  const item = createItem(swordBase, 'rare', () => 'test_id');git
 
   it('rolls a mod with random values', () => {
     const mod = allMods[0]; // Physical Damage
